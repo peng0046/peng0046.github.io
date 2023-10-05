@@ -6,18 +6,20 @@
         <title>
             Rui's First Website
         </title>
+        <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
         <header>
-            <h1>Rui Peng</h1>
-
+            <h1 class="site-title">Rui Peng</h1>
+            <!-- <div class="nav"> -->
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="notes.html">Notes</a></li>
                 </ul>
             </nav>
+            <!-- </div> -->
         </header>
 
         <!-- if you press command + / it will turn into a comment tag -->
@@ -25,7 +27,7 @@
         <main>
             <article>
                 <h2>About Me</h2>
-                <img src="images/rui-travel-photo.jpg" alt="rui-travel-photo" title="rui-travel-photo" width="200"> 
+                <img id="my-image" src="images/rui-travel-photo.jpg" alt="rui-travel-photo" title="rui-travel-photo" width="200"> 
                 
                 <p>
                 Hello everyone, my name is Rui. I worked as an accounting assistant for over 3 years and I decided to learn and break into a new field - Interactive Media Design! 
@@ -47,12 +49,12 @@
                 </p>
 
                 <h2>My hobbies</h2>
-                <ul>
+                <ol>
                     <li>cycling</li>
                     <li>hiking</li>
                     <li>bowling</li>    
                     <!-- target="_blank" means open in a new tab -->
-                </ul>
+                </ol>
 
             </article>
        </main>
