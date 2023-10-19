@@ -1,0 +1,128 @@
+.container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 65px;
+    color: white;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 33%;
+    box-sizing: border-box;
+    /* box-sizing: border-box is used to include border and padding into the calculate in the box */
+    text-align: center;
+    font-size: 25px;
+    border-right: 1px solid;
+    height: 45px;
+    position: relative; 
+}
+
+nav ul li a {
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li:last-child {
+    border: none;
+}
+
+body {
+    background-color: #aad4cf;
+    width: 1024px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, main, footer {
+    background-color:#d1e5e5;
+}
+
+main {
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+h2 {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.lone-starfish {
+    width: 25%;
+    height: auto;
+    float: left; 
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.4;
+    padding-right: 10px;
+}
+
+h3 {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.facts {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#form {
+    border: 1px solid black;
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: black; */
+    padding: 1em;
+}
+
+.name, .email, .message {
+    line-height: 2;
+}
+
+#name, #email, #message {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;   
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h4 {
+    font-size:larger;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+button {
+    display: block;
+    background-color: #d1e5e5;
+    font-size:xx-small;
+    padding: 8px;
+    margin-top: 10px;
+    border-color: black;
+    border-width: 1px;
+}
+
+footer {
+    text-align: right;
+    padding: 20px;    
+}
