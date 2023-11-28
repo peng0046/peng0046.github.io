@@ -1,0 +1,27 @@
+/* .main-banner {
+    background-image: url(../images/main-banner.jpg);
+}
+
+.vision {
+    background-image: url(../images/vision.jpg);
+}
+when writing in the css file, you are in the css folder, so you need to go UP one level with the ../ */
+
+/* table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    }
+
+th, td {
+    border: 1px solid #black;
+    text-align: left;
+    padding: 8px;
+    }
+
+tr:nth-child(1) {
+    background-color: #Moccasin;
+    } */
+
+
+
