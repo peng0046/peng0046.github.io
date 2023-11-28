@@ -1,27 +1,109 @@
-/* .main-banner {
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 120px;
+    color: white;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+/* here is logo-page section */
+.logo-page {
+    background-color: #222;
+    width: 100%;
+}
+
+.logo{
+    background-color: #c78c06;
+    width: 100%;
+}
+
+ul li a {
+    color: #c78c06;
+    text-decoration: none;
+    
+}
+
+/* here is the hero (main) section */
+.main-banner-text {
     background-image: url(../images/main-banner.jpg);
+    padding: 10%;
+}
+/* when writing in the css file, you are in the css folder, so you need to go UP one level with the ../ */
+
+.main-banner-text div{
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.vision {
+
+
+/* here is About Us section */
+
+
+
+/* here is Our Services section */
+
+
+
+/* here is Our Vision section */
+
+.our-vision {
     background-image: url(../images/vision.jpg);
+    padding: 20%;
 }
-when writing in the css file, you are in the css folder, so you need to go UP one level with the ../ */
 
-/* table {
-    font-family: arial, sans-serif;
+.our-vision-text {
+    color: white;
+}
+
+/* here is Our Team section */
+
+
+
+
+
+/* here is Contact Us section */
+.name, .email, .message {
+    line-height: 2;
+}
+
+#name, #email, #message {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;   
+}
+
+
+
+table {
     border-collapse: collapse;
     width: 100%;
-    }
+}
 
-th, td {
-    border: 1px solid #black;
+th {
+    border: 1px solid #222;
+    text-align:center;
+    padding: 8px;
+}
+
+td {
+    border: 1px solid #222;
     text-align: left;
     padding: 8px;
-    }
+}
 
 tr:nth-child(1) {
-    background-color: #Moccasin;
-    } */
+    background-color: #ffe6ac;
+}
 
 
-
+/* here is footer */
+footer {
+    background-color: #222;
+    color: #c78c06;
+}
