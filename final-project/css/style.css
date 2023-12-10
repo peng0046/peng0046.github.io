@@ -1,7 +1,7 @@
-/* Apply box-sizing to all elements on the page 
-used to include the padding and border of an element in its total width and height calculations*/
 * {
     box-sizing: border-box;
+    /* Apply box-sizing to all elements on the page 
+    used to include the padding and border of an element in its total width and height calculations*/
 }
 
 /* Mobile version starts here */
@@ -62,7 +62,7 @@ nav ul li a {
     color: #c78c06;
     text-decoration: none;
     text-align: center;
-    padding: 20px;
+    padding: 22px;
 }
 
 nav ul li a:hover {
@@ -95,31 +95,31 @@ nav ul li a:hover {
 }
 
 /* here is the hero (main) section */
-.main-banner-text {
+.main-banner {
     background-image: url(../images/main-banner.jpg);
     /* when writing in the css file, you are in the css folder, so you need to go UP one level with the ../ */
     background-size: cover;
     /* Adjust how the background image is sized */
     background-position: center;
-    padding: 66px 0px 66px 0px;
+    padding: 68px 0px 68px 0px;
 }
 
-.main-banner-text div {
+.main-banner-text {
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 12px;
+    padding: 15px;
 }
 
 h1 {
     font-weight: 700;
-    font-size: 69px;
+    font-size: 70px;
     color: white;
     line-height: 1.5;
     padding-top: 35px;
 }
 
-.main-banner-text div p {
+.main-banner-text p {
     color: white;
-    padding: 15px 80px 15px 0px;
+    padding: 20px 0px 14px 0px;
 }
 
 .connect-button {
@@ -128,15 +128,15 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 350;
-    height: 90px;
+    height: 93px;
     padding: 30px 10px 30px 30px;
     /* padding: top right bottom left */
 }
 
 .connect-button .material-symbols-outlined {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 /* here is About Us section */
@@ -148,24 +148,27 @@ h1 {
 h2 {
     font-weight: 700;
     font-size: 45px;
-    padding: 25px 0px 25px 0px;
+    padding: 30px 0px 25px 0px;
 }
 
 /* here is Our Services section */
 .service-card {
     background-color: #ffe6ac;
-    padding-bottom: 5px;
     margin-bottom: 15px;
 }
 
-.service-card h3 {
-    font-weight: 700;
-    font-size: 30px;
-    padding: 35px 0px 15px 15px;
+.service-block {
+    padding: 15px;
 }
 
-.service-card p {
-    padding: 0px 15px 0px 15px;
+.service-block h3 {
+    font-weight: 700;
+    font-size: 30px;
+    padding: 20px 0px 20px 0px;
+}
+
+.service-block p {
+    padding: 0px 0px 15px 0px;
 }
 
 .our-services-button {
@@ -175,14 +178,13 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 21px;
     height: 90px;
     padding: 30px 10px 30px 30px;
-    margin: 15px 0px 10px 15px;
 }
 
 .our-services-button .material-symbols-outlined {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 /* here is Our Vision section */
@@ -194,34 +196,33 @@ h2 {
 
 .our-vision-text {
     color: white;
-    padding: 15px 0px 15px 0px;
+    padding: 15px;
 }
 
 .our-vision-text h3 {
     font-weight: 700;
     font-size: 30px;
-    padding: 20px 0px 15px 15px;
+    padding: 20px 0px 20px 0px;
 }
 
 .our-vision-text p {
-    padding: 5px 15px 15px 15px;
+    padding-bottom: 15px;
 }
 
 .our-vision-button {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    font-size: 20px;
+    font-size: 21px;
     border-style: none;
     border: #c78c06 solid 1px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 10px 20px 30px;
-    margin-left: 15px;
+    padding: 17px 10px 17px 30px;
 }
 
 .our-vision-button .material-symbols-outlined {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 /* here is Our Team section */
@@ -230,32 +231,40 @@ h2 {
 }
 
 .team-block:nth-child(2) {
+    padding: 15px;
     margin-bottom: 15px;
 }
 
-.team h3 {
-    font-weight: 700;
-    font-size: 30px;
-    padding: 20px 0px 0px 15px;
+.team-block:nth-child(4) {
+    padding: 15px;
 }
 
-h4 {
+.team-block h3 {
+    font-weight: 700;
+    font-size: 30px;
+    padding: 10px 0px 0px 0px;
+}
+
+.team-block h4 {
     font-weight: 700;
     font-size: 15px;
-    padding: 10px 0px 5px 15px;
+    padding: 10px 0px 0px 0px;
 }
 
 .solid {
-    margin: 0px 15px 0px 15px;
-    padding: 0px;
     border: #c78c06 solid 1px;
+    margin: 4px 0px 4px 0px;
 }
 
 .team p {
-    padding: 12px 15px 25px 15px;
+    padding: 10px 0px 10px 0px;
 }
 
 /* here is Contact Us section */
+.contact-us h2 {
+    padding-top: 40px;
+}
+
 .contact-block h3 {
     font-weight: 700;
     font-size: 30px;
@@ -277,7 +286,7 @@ h4 {
 }
 
 #message {
-    height: 140px;
+    height: 150px;
 }
 
 .send-message-button {
@@ -380,19 +389,20 @@ footer p {
     }
 
     /* here is the hero (main) section */
-    .main-banner-text {
-        padding: 15px;
+    .main-banner {
+        padding: 40px;
     }
 
-    .main-banner-text div {
-        margin: 25px 85px 25px 85px;
+    .main-banner-text {
+        padding: 10px;
+        margin: 0px 60px 0px 60px;
     }
 
     /* here is About Us section */
     .about-us {
         display: grid;
         grid-template-columns: repeat(2, auto);
-        padding: 15px 100px 15px 100px;
+        padding: 15px 110px 15px 110px;
     }
 
     .about-us h2 {
@@ -405,19 +415,23 @@ footer p {
 
     /* here is Our Services section */
     .our-services {
-        margin: 30px 80px 0px 80px;
+        margin: 0px 90px 0px 90px;
+    }
+
+    .service-card {
+        margin: 5px;
+    }
+
+    .our-services-button {
+        width: 100%;
     }
 
     .service {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: auto;
         /* "1fr" distributes space equally among columns, creating columns with the same width.
         "auto" sizes columns based on their content, resulting in columns with variable widths based on the content within them. */
-    }
-
-    .service-card {
-        margin: 5px;
     }
 
     .service .service-card:nth-child(1) {
